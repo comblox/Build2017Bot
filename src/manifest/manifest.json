@@ -1,0 +1,34 @@
+{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v0.4/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "0.4",
+  "id": "f89e9a9c-46b2-c4f5-37b2-02194e79dac7",
+  "version": "0.0.1",
+  "developer": {
+    "name": "comblox",
+    "websiteUrl": "https://build2017Bot.azurewebsites.net",
+    "privacyUrl": "https://build2017Bot.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://build2017Bot.azurewebsites.net/tou.html"
+  },
+  "tabs": [
+    {
+      "id": "7b0b20f6-9089-7cfd-7cfd-cd268ec9dffd",
+      "name": "Build2017Bot Tab",
+      "description": {
+        "short": "Add a short description for Build2017Bot Tab here",
+        "full": "Add a longer description for Build2017Bot Tab here"
+      },
+      "icons": {
+        "44": "https://build2017Bot.azurewebsites.net/assets/tab-44.png",
+        "88": "https://build2017Bot.azurewebsites.net/assets/tab-88.png"
+      },
+      "accentColor": "#223344",
+      "configUrl": "https://build2017Bot.azurewebsites.net/build2017BotTabConfig.html",
+      "canUpdateConfig": true
+    }
+  ],
+  "bots": [],
+  "needsIdentity": false,
+  "validDomains": [
+    "build2017Bot.azurewebsites.net"
+  ]
+}
